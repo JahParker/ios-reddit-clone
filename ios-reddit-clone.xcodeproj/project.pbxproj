@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4E321D2B5B041100BE9A07 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E321C2B5B041100BE9A07 /* .gitignore */; };
 		8C8D21C92B597DBD00FB6C35 /* ios_reddit_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D21C82B597DBD00FB6C35 /* ios_reddit_cloneApp.swift */; };
 		8C8D21CB2B597DBD00FB6C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D21CA2B597DBD00FB6C35 /* ContentView.swift */; };
 		8C8D21CD2B597DC100FB6C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D21CC2B597DC100FB6C35 /* Assets.xcassets */; };
 		8C8D21D02B597DC100FB6C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D21CF2B597DC100FB6C35 /* Preview Assets.xcassets */; };
+		8C8D21D92B59E7EF00FB6C35 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D21D82B59E7EF00FB6C35 /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C4E321C2B5B041100BE9A07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8C8D21C52B597DBD00FB6C35 /* ios-reddit-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-reddit-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8D21C82B597DBD00FB6C35 /* ios_reddit_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_reddit_cloneApp.swift; sourceTree = "<group>"; };
 		8C8D21CA2B597DBD00FB6C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C8D21CC2B597DC100FB6C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C8D21CF2B597DC100FB6C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C8D21D82B59E7EF00FB6C35 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		8C8D21BC2B597DBD00FB6C35 = {
 			isa = PBXGroup;
 			children = (
+				8C4E321C2B5B041100BE9A07 /* .gitignore */,
 				8C8D21C72B597DBD00FB6C35 /* ios-reddit-clone */,
 				8C8D21C62B597DBD00FB6C35 /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				8C8D21C82B597DBD00FB6C35 /* ios_reddit_cloneApp.swift */,
 				8C8D21CA2B597DBD00FB6C35 /* ContentView.swift */,
+				8C8D21D82B59E7EF00FB6C35 /* Feed.swift */,
 				8C8D21CC2B597DC100FB6C35 /* Assets.xcassets */,
 				8C8D21CE2B597DC100FB6C35 /* Preview Content */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8D21D02B597DC100FB6C35 /* Preview Assets.xcassets in Resources */,
+				8C4E321D2B5B041100BE9A07 /* .gitignore in Resources */,
 				8C8D21CD2B597DC100FB6C35 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8D21CB2B597DBD00FB6C35 /* ContentView.swift in Sources */,
+				8C8D21D92B59E7EF00FB6C35 /* Feed.swift in Sources */,
 				8C8D21C92B597DBD00FB6C35 /* ios_reddit_cloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
